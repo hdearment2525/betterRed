@@ -1,0 +1,15 @@
+{
+  "name": "betterred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Hunter DeArment",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.3.0"
+  }
+}
