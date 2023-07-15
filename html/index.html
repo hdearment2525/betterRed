@@ -1,7 +1,30 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello</title>
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+    </head>
     <body>
-        <h1>Hello </h1>
+        <div class="loginBox">
+            <script>
+                function switchPage() {
+                    window.location.href = "mainscreen.html";
+                }
+            </script>
+                        
+            <div class="logo"></div>
+            <input class="inputField emailField" type="text" placeholder="Email"/>
+            <input class="inputField passwordField" type="password" placeholder="Password"/>
+            <div class="button-container">
+                <button class="login-button" onclick="switchPage()">Sign In</button>
+            </div>
+
+            <div class="create-account">
+                <button class="create-account-button">Create Account</button>
+                <button class="forgot-password-button">Forgot Password</button>
+            </div>
+            
+        </div>
     </body>
 </html>

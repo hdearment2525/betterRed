@@ -1,4 +1,5 @@
 const {app, BrowserWindow} = require('electron')
+require('electron-reload')(__dirname);
 
 let splash;
 let mainWindow;
@@ -22,7 +23,7 @@ function createWindow() {
         setTimeout(() => {
             splash.destroy();
             mainWindow.show();
-        }, 5000); // 5 seconds delay
+        }, 1000); // 5 seconds delay
     });
 }
 
